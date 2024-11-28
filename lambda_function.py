@@ -1,5 +1,6 @@
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
+import requests
 
 def last_x_days(currency_series,number_of_days):
     r = requests.get('https://www.bankofcanada.ca/valet/observations/{}/json?recent={}'.format(currency_series,number_of_days))
@@ -12,7 +13,7 @@ def last_x_days(currency_series,number_of_days):
         df['Currency_Label'] = currency_series
         return df
     
-    def data_between_dates(start_date,end_date,currency_series):
+def data_between_dates(start_date,end_date,currency_series):
     r = requests.get('https://www.bankofcanada.ca/valet/observations/{}/json?start_date={}&end_date={}'.format(currency_series,start_date,end_date))
     if r.status_code != 200:
         return 'Failed to retrieve data'
@@ -46,11 +47,12 @@ existing_rows = len(sheet.get_all_values())
 
 sheet.append_rows(rows,existing_rows)
 
+print(scope)
+
 import json
 
 def lambda_handler(event, context):
     # TODO implement
     return {
         'statusCode': 200,
-        'body': json.dumps('Hello from Lambda!')
-    }
+        'body': json.dumps('Hello from Lambda!')    }
