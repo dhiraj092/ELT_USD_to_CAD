@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "data-aquisition-441623",
+    "private_key_id": "b49d4600b5f09daa5ce08d8731786d1e30f7f0f6",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDsJE28JZUVtM35\n3thDennJ/0TwCbLejqFfosL8ZdEa1xmiTOo/Z8Q5MR8CNX8hBDYsn8E202/zmP5k\nBFJ7Ma6XO+b7Iea3GIilk8veR3xB7dVGWZSrWcsDZIbluFGeYh77wbJy8225razG\nKtq5bInA7r+Rz3e324nVG9/KQ8T0PGi8bceNOB8FmaSbdLUR/Dpzd6/VQjUp3o99\nXootttdvuYKx4bhe99cpvQepZWfJ7AexfPqCfaINRAcrUf67VDRTAOE8b1Rt4SZe\nEcTnbvRzxs0Y7+F2LXKIdeZgHMqdIz8EsDz8wOfeA935MaIwmvimZ2mcQsvNWBfR\nTomriWRDAgMBAAECggEAC4h3LRBybsddCy5ReacEE7pRiTewC/A2lkLCXl/Kp3ju\nwF9PtLd1fSWWnuqZKILZv0wxVfz1o5WxUJYCQUOn6nlhsQCmEZzNIukZAX4t5dQF\nbcfD293C070xKXJBg9UryWsoZmmlNKn0akLljXDTn+yixpUcNiQuxlqNXFLHzikD\nhoGH2XoojSdnlnplwlX3tfigFjKBhLn9bM4YJNqm90lVKI+Mc/wVnnRKOL2MOePC\n77Oi9Y6eqPUCGH7H9Z8PYx2D762qc7N++9kc+Qzp4IMFRG3DpQLDmd10h0aJb+sJ\n+zCSTNY684VdQhRwZ8F/W1vh160dFHcarmp7h6sdYQKBgQD3VqlIYSB1VLRqgJyx\npyi+nijBzIyk2rEt991IBbCbrYsii8VpdDYBp6BPFsHVmiCF90nlVOm0cQcI4l77\nsJPb3LYEWkUXzJlCyDlrN1P+nXeYiRSyg8ICfnHZ0t1ZZuOMSvaBGB/dZsdNWYhs\nTsfOOvNomupbRiKDN6NR6DVCNwKBgQD0aUQl/nBwOXDYQC39JvX/1k4gGYWI0hBa\nIbpyvYX1u6GC3mRWUAA31y+rkM1GeYFpQ6/1aRWrnNc03vxRMsF7CAov1tbzg9IB\n91lXJb+9rFP9Y0XWvztWNAhmhNANlZxjFEAsVAv5oDmfk49rCYjjIxWIC/x/gIpM\nsEpBH+TYVQKBgA8u069svuhU7cpH4NaK81ZYMRpMaynHfu7ac0vzhXbY/Vx+hfzG\nNHZ/iriwJe/tySdQGcopHzuDYLIr6za6DSmG7+lufSVL2vCdh+DMAaz0j53edFXM\n/sDWcDi11/6f8UHwbBdamsIliAB4iYZUg7FmLwDx2YcG1CGH7c+eWH6bAoGAI590\nH1WGbdTxbZNtIIidMjy6BlOx8s8rMvfXhQG6lKZUVA618R6X6Yujlw3z3WG4Su9i\nphI65lhlxX76p5sOODBjy7U0fymnYkH684i8+Zg0Zaoic7pLm7TZxJd2+4Pi104M\nTGmzlR6VR3zqWl95ZCGo8btNggfqIGNRb0yGvkECgYEAsaRyNYCsyo9U2mZ8nWQC\nMvgiW4+ikqJy3VqeTyHf7eAPxYowGxgKZQ8hfy91BhaqI+MnwLsCBUETrPABtQjx\no40LS2GKxdRovFYy/EuhmX9DmWkajxg3uzPBd1AX2GzAOqMc4fhS8V4E5sRa2ZDg\naNiGTxenkTjhq7ctJ6SjAaU=\n-----END PRIVATE KEY-----\n",
+    "client_email": "test-service-for-data-aquisiti@data-aquisition-441623.iam.gserviceaccount.com",
+    "client_id": "101405332232955991891",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/test-service-for-data-aquisiti%40data-aquisition-441623.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  
