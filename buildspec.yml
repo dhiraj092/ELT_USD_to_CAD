@@ -1,0 +1,16 @@
+version: 0.2
+phases:
+ install:
+  runtime-versions:
+   python: 3.13
+  commands:
+   - echo "No dependencies to install as they are included in the Lambda layer."
+ build:
+  commands:
+   - echo "Zipping deployment package..."
+   - zip -r9 deployment_package.zip lambda_function.py
+ post_build:
+  commands:
+   - echo "Updating lambda Function..."
+   - aws lambda update-function-code --function-name USD_CAD_ELT_Script--zip-file fileb://deployment_package.zip
+   - echo "DONE!!"
