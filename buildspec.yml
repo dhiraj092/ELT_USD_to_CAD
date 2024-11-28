@@ -12,5 +12,5 @@ phases:
  post_build:
   commands:
    - echo "Updating lambda Function..."
-   - aws lambda update-function-code --function-name USD_CAD_ELT_Script--zip-file fileb://deployment_package.zip
-   - echo "DONE!!"
+   - aws lambda update-function-code --function-name USD_CAD_ELT_Script --zip-file fileb://deployment_package.zip
+   - echo "DONE!!"  
